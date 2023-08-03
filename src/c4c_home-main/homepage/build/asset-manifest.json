@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.df63cb2a.css",
+    "main.js": "/static/js/main.4237fe9d.js",
+    "static/media/10.png": "/static/media/10.7fd458cb4536643f8e85.png",
+    "static/media/4.png": "/static/media/4.599e60cad9c3edd32ded.png",
+    "static/media/6.png": "/static/media/6.dad6011c1b8b16a0fae0.png",
+    "static/media/13.png": "/static/media/13.eff49a7e0a8bbb5a6452.png",
+    "static/media/14.png": "/static/media/14.4432c31851e278178c10.png",
+    "static/media/9.png": "/static/media/9.1d8109151cdf034ca840.png",
+    "static/media/1.png": "/static/media/1.a2ea5687e006f6ddd926.png",
+    "static/media/11.png": "/static/media/11.69bf6e086d338593a6de.png",
+    "static/media/12.png": "/static/media/12.f8000060eff1b9c8b15e.png",
+    "static/media/2.png": "/static/media/2.b053b47dc355ffe0908d.png",
+    "static/media/3.png": "/static/media/3.c844d67a98f7d766872a.png",
+    "static/media/8.png": "/static/media/8.8baac904e5708136286a.png",
+    "static/media/5.png": "/static/media/5.859fed9c237fa8d82f23.png",
+    "static/media/Poppins-Regular.ttf": "/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/7.png": "/static/media/7.03ff2952b74d05808c56.png",
+    "static/media/Exo2-Regular.ttf": "/static/media/Exo2-Regular.a527b961c4bfbc11dd5d.ttf",
+    "static/media/about_logo.png": "/static/media/about_logo.567e96d53f5bb6467964.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.df63cb2a.css",
+    "static/js/main.4237fe9d.js"
+  ]
+}

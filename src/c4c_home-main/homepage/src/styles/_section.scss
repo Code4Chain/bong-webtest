@@ -1,0 +1,59 @@
+@import './variables';
+@import './mixins';
+
+
+[class^="section"] {
+    padding: 128px 0;
+
+    @include breakpoint(x) {
+        padding: 112px 0;
+    }
+
+    @include breakpoint(m) {
+        padding: 64px 0;
+    }
+}
+
+.section-bg {
+    background: $neutrals7;
+
+    @include dark-common {
+        background: $neutrals2;
+    }
+}
+
+.section-pb {
+    padding-top: 0;
+
+    @include breakpoint(d) {
+        padding-top: 0;
+    }
+
+    @include breakpoint(m) {
+        padding-top: 0;
+    }
+}
+
+.section-pt {
+    padding-bottom: 0;
+
+    @include breakpoint(d) {
+        padding-bottom: 0;
+    }
+
+    @include breakpoint(m) {
+        padding-bottom: 0;
+    }
+}
+
+.section-pt80 {
+    padding-top: 80px;
+
+    @include breakpoint(d) {
+        padding-top: 64px;
+    }
+
+    @include breakpoint(m) {
+        padding-top: 32px;
+    }
+}

@@ -1,0 +1,174 @@
+@import "../../styles/mixins.scss";
+
+nav {
+    height: 132px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #000;
+
+    @include breakpoint(d) {
+        height: 100px;
+    }
+
+    .container {
+        padding-top: 44px;
+        overflow: hidden;
+
+        @include breakpoint(d) {
+            padding-top: 14px;
+        }
+
+        .box_container {
+            display: flex;
+            margin: 0 53px;
+            height: 100%;
+            margin: 0 auto;
+
+            .mobile_menu {
+                width: 38px;
+                height: 28px;
+                margin: 25px 72px 0 10px;
+                float: left;
+                display: none;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+
+                @include breakpoint(d) {
+                    display: initial;
+                }
+            }
+
+            .logo_container {
+                margin-top: 17px;
+                float: left;
+                margin-right: 43px;
+
+                .logo {
+                    width: 260px;
+                    height: 43px;
+                    display: inline-block;
+                    object-fit: cover;
+                }
+            }
+
+            .menu_container {
+                margin-top: 28px;
+
+                @include breakpoint(d) {
+                    margin-top: 0;
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    left: -100%;
+                    top: 100px;
+                    background: #000;
+                    text-align: center;
+                    z-index: 1;
+                    transition: all .5s ease-in-out;
+                }
+
+                &.active {
+                    left: 0;
+                }
+
+                .menu {
+                    height: 20px;
+
+
+                    &:not(:last-child) {
+                        margin-right: 20px;
+                    }
+
+
+                    @include breakpoint(d) {
+                        text-align: center;
+                        width: auto;
+                        height: auto;
+                        margin-top: 100px;
+                        display: block;
+
+                        &:not(:last-child) {
+                            margin-right: 0;
+                        }
+                    }
+
+                    a {
+                        @include exo2;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #FFFFFF;
+
+                        &:hover {
+                            color: #aaa;
+                        }
+
+                        @include breakpoint(d) {
+                            font-size: 28px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+            }
+
+            .lang_container {
+                margin-top: 14px;
+                margin-left: auto;
+
+                .lang_box {
+                    text-align: center;
+                    display: inline-block;
+                    box-sizing: border-box;
+                    width: 79px;
+                    height: 48px;
+                    left: 1370px;
+                    top: 14px;
+                    border: 3px solid transparent;
+                    background-origin: border-box;
+                    background-image: linear-gradient(#000, #000), linear-gradient(#c7c7c7, #c7c7c7);
+                    background-clip: content-box, border-box;
+                    border-radius: 65px;
+                    color: #fff;
+
+                    &.active {
+                        background-image: linear-gradient(#000, #000), linear-gradient(#37FFC3, #A291FC);
+                        color: #37FFC3;
+                    }
+
+
+                    &:not(:last-child) {
+                        margin-right: 20px;
+                    }
+
+                    span {
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                    }
+
+                    &:hover {
+                        opacity: .5;
+                        -webkit-filter: brightness(100%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav_padding {
+    height: 132px;
+
+    @include breakpoint(d) {
+        height: 100px;
+    }
+}

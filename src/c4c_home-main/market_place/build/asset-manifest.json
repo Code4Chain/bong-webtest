@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/market_place/static/css/main.082cc579.css",
+    "main.js": "/market_place/static/js/main.e899d76d.js",
+    "static/media/cube.png": "/market_place/static/media/cube.accc6d6d52c7a70a705a.png",
+    "static/media/cube@2x.png": "/market_place/static/media/cube@2x.accc6d6d52c7a70a705a.png",
+    "static/media/Apple-Regular.ttf": "/market_place/static/media/Apple-Regular.56905accb1d3d9475830.ttf",
+    "static/media/connect_wallet.jpg": "/market_place/static/media/connect_wallet.a972f2e5a2404d413afe.jpg",
+    "static/media/Poppins-Regular.ttf": "/market_place/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/no_result.jpg": "/market_place/static/media/no_result.79d4e7f02ea64beb11e7.jpg",
+    "static/media/no_result_dark.jpg": "/market_place/static/media/no_result_dark.c606708c42881e87fbdd.jpg",
+    "static/media/OpenSans-Regular.ttf": "/market_place/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/create_item.jpg": "/market_place/static/media/create_item.1dc0ee6e647728cb6688.jpg",
+    "static/media/create_collection.jpg": "/market_place/static/media/create_collection.8c549bd29a295f87f5ab.jpg",
+    "static/media/DMSans-Regular.ttf": "/market_place/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/logo_dark_02.png": "/market_place/static/media/logo_dark_02.7e659850b9cc117f2411.png",
+    "static/media/example.png": "/market_place/static/media/example.3eb213573ef430c68497.png",
+    "static/media/logo_02.png": "/market_place/static/media/logo_02.1d05808861bdb5fd4afb.png",
+    "static/media/facebook.svg": "/market_place/static/media/facebook.fdca960ea6060d402dfb922117fe199c.svg",
+    "static/media/kakao.svg": "/market_place/static/media/kakao.239b8142562ec468c8fad0c13d656dfb.svg",
+    "static/media/eye-disable.svg": "/market_place/static/media/eye-disable.644027e056376722d906c6d785851a9d.svg",
+    "static/media/login_id.svg": "/market_place/static/media/login_id.245addf9e4a9aa1fd57fcd4afa29ac30.svg",
+    "static/media/cup.svg": "/market_place/static/media/cup.62f3b27056dc61fd04149eca8bd9e6cb.svg",
+    "static/media/login_password.svg": "/market_place/static/media/login_password.205c820e6522497307cd01eac67fe7c5.svg",
+    "static/media/donut.svg": "/market_place/static/media/donut.ca1f97b636639d31ca99abe57527355f.svg",
+    "index.html": "/market_place/index.html",
+    "static/media/approve_failed.svg": "/market_place/static/media/approve_failed.b7f7ac4edc5809250a15c323aa0379ae.svg",
+    "static/media/eye-enable.svg": "/market_place/static/media/eye-enable.0503c6e61b303c1cc33d3182741f5a02.svg",
+    "static/media/muted.svg": "/market_place/static/media/muted.b22148d9b915fd207fb341c464eb93ce.svg",
+    "static/media/sell_order.svg": "/market_place/static/media/sell_order.a443c87d11fca7ab055d5ca02f400817.svg",
+    "static/media/default_avatar.svg": "/market_place/static/media/default_avatar.7cb1fb2d5bc32181e771d92bc1a7f55a.svg",
+    "static/media/lightning.svg": "/market_place/static/media/lightning.a6b9e889f118b9bed064e8f184a3219e.svg",
+    "static/media/approve.svg": "/market_place/static/media/approve.f884c9eaa21b65371eec410b062b21fe.svg",
+    "static/media/completed.svg": "/market_place/static/media/completed.f86f21dd3f24560636a0295442db2cc2.svg",
+    "static/media/create_collection_icon.svg": "/market_place/static/media/create_collection_icon.b8684ffac14540579be17c34ef7bbed2.svg"
+  },
+  "entrypoints": [
+    "static/css/main.082cc579.css",
+    "static/js/main.e899d76d.js"
+  ]
+}

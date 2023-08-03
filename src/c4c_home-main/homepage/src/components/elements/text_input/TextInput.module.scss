@@ -1,0 +1,56 @@
+@import '../../../styles/mixins.scss';
+
+.label {
+    margin-bottom: 12px;
+    @include hairline-2;
+    color: $neutrals5;
+}
+
+.input {
+    width: 100%;
+    height: 48px;
+    padding: 0 14px;
+    border-radius: 12px;
+    border: 2px solid $neutrals6;
+    background: none;
+    @include poppins;
+    @include caption-bold-1;
+    color: $neutrals2;
+    transition: border-color .2s;
+
+    @include dark {
+        border-color: $neutrals3;
+        color: $neutrals8;
+    }
+
+    &::placeholder {
+        color: $neutrals4;
+    }
+
+    &:focus {
+        border-color: $neutrals4;
+    }
+
+    &:disabled {
+        background: $neutrals7;
+
+        @include dark {
+            background: $neutrals2;
+        }
+    }
+}
+
+.invalid {
+    background-color: ivory;
+    border: 2px solid red;
+
+    &:focus {
+        border-color: red;
+    }
+}
+
+.error {
+    margin: 12px 0 0 12px;
+    @include hairline-2;
+    color: red;
+}

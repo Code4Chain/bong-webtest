@@ -1,0 +1,1 @@
+remixd -s blockchain\contracts --remix-ide https://remix.ethereum.org

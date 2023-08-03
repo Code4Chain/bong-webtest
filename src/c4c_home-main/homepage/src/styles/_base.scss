@@ -1,0 +1,82 @@
+@import './variables';
+@import './mixins';
+
+body {
+    min-width: 375px;
+    background: #000;
+    @include poppins;
+    font-size: 14px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+svg,
+img {
+    vertical-align: middle;
+}
+
+.desktop {
+    &-hide {
+        @include breakpoint(d) {
+            display: none !important;
+        }
+    }
+
+    &-show {
+        display: none !important;
+
+        @include breakpoint(d) {
+            display: block !important;
+        }
+    }
+
+    &-text-right {
+        @include breakpoint(d) {
+            text-align: right;
+        }
+    }
+}
+
+.tablet {
+    &-hide {
+        @include breakpoint(t) {
+            display: none !important;
+        }
+    }
+
+    &-show {
+        display: none !important;
+
+        @include breakpoint(t) {
+            display: block !important;
+        }
+    }
+}
+
+.mobile {
+    &-hide {
+        @include breakpoint(m) {
+            display: none !important;
+        }
+    }
+
+    &-show {
+        display: none !important;
+
+        @include breakpoint(m) {
+            display: block !important;
+        }
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}

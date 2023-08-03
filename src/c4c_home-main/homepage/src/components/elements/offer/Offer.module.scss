@@ -1,0 +1,175 @@
+@import '../../../styles/mixins.scss';
+
+.title {
+    margin-bottom: 32px;
+}
+
+.sub_title {
+    display: block;
+    @include caption-1;
+    font-size: 20px;
+}
+
+
+.info {
+    margin-bottom: 32px;
+    @include body-2;
+
+    strong {
+        font-weight: 800;
+    }
+}
+
+.stage {
+    margin-bottom: 16px;
+    @include body-bold-1;
+}
+
+.row {
+    display: flex;
+    padding-top: 12px;
+
+    &:first-child {
+        padding: 0 0 12px;
+        border-bottom: 1px solid $neutrals6;
+        font-weight: 500;
+
+        @include dark {
+            border-color: $neutrals3;
+        }
+
+        .col {
+            font-size: 30px;
+
+            strong {
+                font-weight: 800;
+            }
+        }
+    }
+}
+
+.col {
+    @include body-2;
+
+    &:first-child {
+        color: $neutrals4;
+    }
+
+    &:nth-child(2) {
+        margin-left: auto;
+        padding-left: 16px;
+        font-weight: 500;
+    }
+}
+
+.field {
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.dropdown {
+    width: 120px;
+}
+
+.btns {
+    margin-top: 32px;
+}
+
+.button {
+    width: 100%;
+
+    &:not(:last-child) {
+        margin-bottom: 8px;
+    }
+
+    &.disabled {
+        background: #3772FF;
+        opacity: 0.5;
+    }
+
+    &.done {
+        background: #B1B5C4;
+    }
+
+    &.inprogress {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), #3772FF;
+    }
+
+    &.failed {
+        border: 2px solid $neutrals6;
+        background: $neutrals8;
+        color: red;
+    }
+}
+
+
+.input {
+    flex-shrink: 1;
+    border-bottom: 1px solid $neutrals6;
+    @include poppins;
+    @include body-bold-2;
+    color: $neutrals2;
+
+    &::placeholder {
+        color: $neutrals4;
+    }
+}
+
+
+.step_box {
+
+    &:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+.icon_box {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-right: 20px;
+}
+
+.exp_line {
+    float: left;
+    height: 48px;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.exp_title {
+    @include caption-1;
+    height: 28px;
+}
+
+.exp_contents {
+    @include caption-2;
+    height: 24px;
+}
+
+.error_msg {
+    @include caption-2;
+    height: 24px;
+    color: red;
+}
+
+.result {
+    text-align: center;
+
+    & > button {
+        margin-top: 32px;
+    }
+}
+
+.result_title {
+    color: $neutrals2;
+    font-size: 38px;
+    margin-top: 40px;
+}
+
+.result_contents {
+    color: $neutrals2;
+    font-size: 16px;
+    margin-top: 32px;
+}
+    

@@ -1,0 +1,111 @@
+@import '../../../styles/mixins.scss';
+
+.player {
+    position: relative;
+
+    .preview {
+        width: 100%;
+        height: 100%;
+
+        &:hover {
+            .control {
+                opacity: 1;
+            }
+        }
+
+        .video {
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+            object-fit: cover
+        }
+
+
+        .control {
+            position: absolute;
+            left: 8px;
+            right: 8px;
+            bottom: 14px;
+            z-index: 3;
+            display: flex;
+            align-items: center;
+            height: 40px;
+            padding: 0 20px;
+            opacity: 0;
+            border-radius: 20px;
+            background: $neutrals8;
+            -webkit-transition: opacity 0.2s ease-in-out;
+            -moz-transition: opacity 0.2s ease-in-out;
+            transition: opacity 0.2s ease-in-out;
+
+            @include dark {
+                background: $neutrals1;
+            }
+
+            .button {
+                svg {
+                    fill: $neutrals4;
+                    transition: fill .2s;
+                }
+
+                &:hover {
+                    svg {
+                        fill: $neutrals2;
+
+                        @include dark {
+                            fill: $neutrals8;
+                        }
+                    }
+                }
+
+                &:not(:last-child) {
+                    margin-right: 24px;
+
+                    @include breakpoint(m) {
+                        margin-right: 16px;
+                    }
+                }
+            }
+
+            .play {
+            }
+
+            .line {
+                position: relative;
+                flex-grow: 1;
+                height: 8px;
+                margin-right: 24px;
+                background: $neutrals6;
+                border-radius: 4px;
+
+                @include breakpoint(m) {
+                    margin-right: 16px;
+                }
+
+                @include dark {
+                    background: $neutrals3;
+                }
+
+
+                .progress {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    border-radius: 4px;
+                    background: $blue;
+                }
+            }
+
+
+            .time {
+                margin-right: 24px;
+                @include body-bold-2;
+
+                @include breakpoint(m) {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+}

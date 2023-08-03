@@ -1,0 +1,110 @@
+@import '../../../styles/mixins.scss';
+
+.filters {
+    flex-shrink: 0;
+    width: 280px;
+    height: fit-content;
+    padding: 32px 32px 13px;
+    /* Neutrals/6 */
+
+    border: 1px solid $neutrals6;
+    /* depth/3 */
+
+    box-shadow: 0px 40px 32px -24px rgba(15, 15, 15, 0.12);
+    border-radius: 16px;
+
+    @include dark {
+        border: 1px solid $neutrals3;
+    }
+
+    @include breakpoint(t) {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}
+
+.filters_title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 19px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    color: $neutrals1;
+
+    @include dark {
+        color: $neutrals8;
+    }
+}
+
+.checkbox {
+    width: 100%;
+}
+
+.status {
+    margin-bottom: 24px;
+}
+
+.price_input {
+    display: flex;
+}
+
+.dropdown {
+    margin-bottom: 10px;
+}
+
+.price_to {
+    margin: 10px 10px;
+}
+
+.scale {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.group {
+    margin-bottom: 24px;
+    padding: 24px 0;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: $neutrals6;
+
+    @include dark {
+        border-color: $neutrals3;
+    }
+}
+
+.label {
+    margin-bottom: 12px;
+    @include hairline-2;
+    color: $neutrals5;
+}
+
+.reset {
+    display: inline-flex;
+    align-items: center;
+    @include button-2;
+    cursor: pointer;
+    transition: color .2s;
+
+    svg {
+        margin-right: 8px;
+        fill: $neutrals2;
+        transition: fill .2s;
+
+        @include dark {
+            fill: $neutrals8;
+        }
+    }
+
+    &:hover {
+        color: $blue;
+
+        svg {
+            fill: $blue;
+        }
+    }
+}

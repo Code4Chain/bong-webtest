@@ -1,0 +1,56 @@
+@import "../../../../styles/mixins.scss";
+
+.section {
+    position: relative;
+
+    .container {
+        padding-bottom: 200px;
+
+        @include breakpoint(d) {
+            padding-bottom: 150px;
+        }
+
+        text-align: center;
+        max-width: 1500px;
+
+        .items_container {
+            margin-top: 45px;
+            text-align: left;
+
+            .item {
+
+                &:not(:last-child) {
+                    margin-bottom: 38px;
+                }
+
+                .title {
+                    @include exo2;
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 75px;
+                    /* identical to box height, or 188% */
+
+
+                    color: #FFFFFF;
+                }
+
+                .text {
+                    @include exo2;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 75px;
+                    /* identical to box height, or 375% */
+
+                    color: #FFFFFF;
+                    margin-bottom: 34px;
+                }
+
+                .icon {
+                    img {
+                    }
+                }
+            }
+        }
+    }
+}

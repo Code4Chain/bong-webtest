@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\homepage",
+    "\\homepage\\src",
+    "\\homepage\\src\\components",
+    "\\homepage\\src\\components\\pages",
+    "\\homepage\\src\\components\\pages\\admin",
+    "\\homepage\\src\\styles",
+    "\\market_place",
+    "\\market_place\\build",
+    "\\routes"
+  ],
+  "SelectedNode": "\\homepage\\src\\components\\pages\\admin",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,164 @@
+@import "../../../../styles/mixins.scss";
+
+.bg_container {
+    width: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.bg1 {
+    position: absolute;
+    left: 50%;
+    top: 7px;
+
+    @include breakpoint(d) {
+        left: 60%;
+    }
+}
+
+
+.bg2 {
+    position: absolute;
+    left: calc(50% - 200px);
+    top: 386px;
+    z-index: -1;
+
+    @include breakpoint(d) {
+        top: 186px;
+    }
+}
+
+.bg3 {
+    position: absolute;
+    right: -180px;
+    top: 1448px;
+
+    @include breakpoint(d) {
+        right: -380px;
+        top: 948px;
+    }
+}
+
+
+.bg4 {
+    position: absolute;
+    left: -50%;
+    top: 2296px;
+
+    @include breakpoint(d) {
+        left: -60%;
+        top: 1896px;
+    }
+}
+
+
+.bg5 {
+    position: absolute;
+    right: 0;
+    top: 2254px;
+
+    @include breakpoint(d) {
+        display: none;
+    }
+}
+
+.bg6 {
+    position: absolute;
+    right: -758px;
+    top: 3153px;
+
+    @include breakpoint(d) {
+        right: -50%;
+        top: 2853px;
+    }
+}
+
+.bg11 {
+    position: absolute;
+    left: -100px;
+    top: 5071px;
+
+    @include breakpoint(d) {
+        left: -300px;
+        top: 4053px;
+    }
+}
+
+.bg7 {
+    position: absolute;
+    right: 0;
+    top: 5582px;
+
+    @include breakpoint(d) {
+        display: none;
+    }
+}
+
+.bg8 {
+    position: absolute;
+    left: 0;
+    top: 6293px;
+
+    @include breakpoint(d) {
+        display: none;
+    }
+}
+
+.bg9 {
+    position: absolute;
+    right: -653px;
+    top: 7286px;
+
+    @include breakpoint(d) {
+        display: none;
+    }
+}
+
+.bg10 {
+    position: absolute;
+    left: -1238px;
+    top: 8624px;
+    height: 2500px;
+
+    @include breakpoint(d) {
+        display: none;
+    }
+}
+
+.bg12 {
+    display: none;
+
+    @include breakpoint(d) {
+        display: initial;
+        position: absolute;
+        left: 10%;
+        top: 5253px;
+    }
+}
+
+.bg13 {
+    display: none;
+
+    @include breakpoint(d) {
+        display: initial;
+        position: absolute;
+        left: 0;
+        top: 7024px;
+        transform:scale(2);
+    }
+}
+
+.bg14 {
+    display: none;
+
+    @include breakpoint(d) {
+        display: initial;
+        position: absolute;
+        left: -50%;
+        top: 9024px;
+    }
+}
