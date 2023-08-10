@@ -1,9 +1,0 @@
-/build
-/node_modules
-package-lock.json
-truffle.js
-env.json
-*.bak
-data/image/
-data/metadata/
-.env
